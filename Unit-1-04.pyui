@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 31}, {140, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "radius_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "509C2BF0-89E1-49D5-9EBB-4719E11B327A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the radius:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{185, 31}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "radius_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "EC4B9FE9-6CFF-44C0-9365-17462F5739A9",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 223}, {440, 69}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "circumference_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "2745E7B5-00D3-4741-8F73-7A854E1543CC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 110}, {379, 82}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_circumference_on_touch_up_on_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Circumference = PI * radius ** 2",
+          "uuid" : "57A77950-A237-4A24-AACB-3DE777CD9BAB",
+          "class" : "Button",
+          "name" : "circumference_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
